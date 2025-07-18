@@ -4,4 +4,4 @@ python-multipart==0.0.20
 easyocr
 opencv-python==4.11.0.86
 pillow==11.2.1
-
+numpy
