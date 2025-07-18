@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # Initialize EasyOCR Reader once (global)
-reader = easyocr.Reader(['en'], gpu=True) #if use cpu then gpu=False
+reader = easyocr.Reader(['en'], gpu=False) #if use cpu then gpu=True
 
 def preprocess_image(image_array):
     """
